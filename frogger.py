@@ -20,27 +20,27 @@ all_sprites = pygame.sprite.Group()
 turtles = pygame.sprite.Group()
 frogs = pygame.sprite.Group()
 
-frogUpImg = pygame.image.load('frog10.gif')
-frogLeftImg = pygame.image.load('frog00.gif')
-frogRightImg = pygame.image.load('frog20.gif')
-frogDownImg = pygame.image.load('frog30.gif')
+frogUpImg = pygame.image.load('images/frog10.gif')
+frogLeftImg = pygame.image.load('images/frog00.gif')
+frogRightImg = pygame.image.load('images/frog20.gif')
+frogDownImg = pygame.image.load('images/frog30.gif')
 
-yellowCarImg = pygame.image.load('yellowCar.gif')  # 2nd Row
-dozerImg = pygame.image.load('dozer.gif')  # 3rd Row
-purpleCarImg = pygame.image.load('purpleCar.gif')  # 4th Row
-greenCarImg = pygame.image.load('greenCar.gif')  # 5th Row
-truckImg = pygame.image.load('truck.gif')  # 6th Row
+yellowCarImg = pygame.image.load('images/yellowCar.gif')  # 2nd Row
+dozerImg = pygame.image.load('images/dozer.gif')  # 3rd Row
+purpleCarImg = pygame.image.load('images/purpleCar.gif')  # 4th Row
+greenCarImg = pygame.image.load('images/greenCar.gif')  # 5th Row
+truckImg = pygame.image.load('images/truck.gif')  # 6th Row
 
-logShortImg = pygame.image.load('logShort.gif')
-logMediumImg = pygame.image.load('logMedium.gif')
-logLongImg = pygame.image.load('logLong.gif')
+logShortImg = pygame.image.load('images/logShort.gif')
+logMediumImg = pygame.image.load('images/logMedium.gif')
+logLongImg = pygame.image.load('images/logLong.gif')
 
-turtleTwoImg = pygame.image.load('turtletwo.gif')
-turtleTwoDownImg = pygame.image.load('turtletwodown.gif')
-turtleThreeImg = pygame.image.load('turtlethree.gif')
-turtleThreeDownImg = pygame.image.load('turtlethreedown.gif')
+turtleTwoImg = pygame.image.load('images/turtletwo.gif')
+turtleTwoDownImg = pygame.image.load('images/turtletwodown.gif')
+turtleThreeImg = pygame.image.load('images/turtlethree.gif')
+turtleThreeDownImg = pygame.image.load('images/turtlethreedown.gif')
 
-backgroundImg = pygame.image.load('background.gif')
+backgroundImg = pygame.image.load('images/background.gif')
 
 done = False
 turtleCounter = 0
